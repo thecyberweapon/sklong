@@ -6,4 +6,4 @@ A Program that generates and checks Stripe keys 24x7. This was made only for Edu
 ## Variables
 BOT_TOKEN - Bot token, get it from @BotFather.
 
-https://heroku.com/deploy?template=https://github.com/thecyberweapon/stripekey-generator
+https://heroku.com/deploy?template=https://github.com/thecyberweapon/sklong
