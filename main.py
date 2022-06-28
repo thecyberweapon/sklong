@@ -4,11 +4,10 @@ import requests, \
        os
 
 token = os.environ.get("BOT_TOKEN")
-chatid = os.environ.get("FORWARD_ID",\
-            "-1001566858781")
+chatid = os.environ.get("FORWARD_ID")
     
 def short_key():
-  skkey = "sk_live_"+''.join(random.choices( string.digits + string.ascii_letters, k = 24))
+  skkey = "sk_live_"+''.join(random.choices( string.digits + string.ascii_letters, k = 99))
   pos = requests.post(
         url="https://api.stripe.com/v1/tokens",
         headers={'Content-Type': 'application/x-www-form-urlencoded'}, 
